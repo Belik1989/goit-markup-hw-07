@@ -15,6 +15,14 @@
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    transition: border var(--transition-dur-and-func), border-radius var(--transition-dur-and-func);
+    
+    &:hover,
+    &:focus {
+    fill:#2196F3;
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    }
 }
 .client-item{
     display: flex;
@@ -23,20 +31,15 @@
 .client-logo{
     fill:#AFB1B8;
     transition: fill var(--transition-dur-and-func);
-}
-        
-.client-item:hover .client-logo,
-.client-item:focus .client-logo{
-    fill:#2196F3;
     
-}
-.client-link:hover,
-.client-link:focus {
+    .client-item:hover &,
+    .client-item:focus &{
     fill:#2196F3;
-    border: 1px solid #2196F3;
-    border-radius: 4px;
-}
-.client-link:hover .client-logo,
-.client-link:focus .client-logo {
+    }
+    .client-link:hover &,
+    .client-link:focus &{
     fill:#2196F3;
+    }
 }
+
+

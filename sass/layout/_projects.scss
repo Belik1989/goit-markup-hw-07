@@ -2,7 +2,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    
 }
 
 .project-card:hover,
@@ -23,15 +22,12 @@
     color: var(--secondary-tex-color);
 }
 .project-link{
-        border: 1px solid #EEEEEE;;
-}
-
-.project-link{
     display: block;
     position: relative;
+    border: 1px solid #EEEEEE;;
 }
-    .project-inform{
 
+    .project-inform{
         border: 1px solid #EEEEEE;
         border-top: none;
         padding: 20px 24px 20px 24px;
@@ -58,9 +54,9 @@
     color: #FFFFFF;
     background: rgba(33, 150, 243, 0.9);
     padding: 63px 24px 63px 24px;
-    }
-
-.poject-link:hover .overlay,
-.poject-link:focus .overlay {
+    
+    .poject-link:hover &,
+    .poject-link:focus &{
     transform: translate(0, 0);
+    }
 }

@@ -21,10 +21,6 @@
     font-size: 26px;
     line-height: 1.19;
     color:var(--third-text-color);
-    /* width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px; */
 }
 .logo-head-part2{
     color: var(--primary-text-color);
@@ -38,8 +34,7 @@
 .menu{
     display: flex;
     align-items: center;
-    /* gap: 50px; */
-    }
+}
 .menu-item:not(:last-child){
     margin-right: 50px;
 }
@@ -58,7 +53,6 @@
 
 .current::after{
     position: absolute;
-    /* display:block; */
     content: '';
     left: 0;
     bottom: 0;
@@ -89,14 +83,6 @@
         color:var(--third-text-color);
 }
 
-.mail-link{
-    /* position: absolute;
-    width: 135px;
-    height: 16px;
-    top: 32px;
-    left: 1078px; */
-    margin-right: 50px;
-    }
 .contact-phone-number,.mail-link{
     font-weight: 500;
     font-size: 14px;
@@ -105,13 +91,7 @@
     color: var(--secondary-tex-color);
     transition: color var(--transition-dur-and-func);
 }
-/* .contact-phone-number{
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-    position: absolute;
-} */
+
 .mail-link:hover,
 .mail-link:focus,
 .contact-phone-number:hover,
@@ -122,6 +102,7 @@
     .mail-link{
         display: flex;
         justify-content: center;
+        margin-right: 50px;
     }
     .mail-icon-head{
         margin-right: 10px;

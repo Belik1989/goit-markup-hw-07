@@ -2,6 +2,7 @@
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #2F303A;
 }
 
 .logo-foot{
@@ -16,11 +17,6 @@
 .logo-foot-part2{
     color:white;
 }
-.footer{
-    position: relative;
-    background-color: #2F303A;
-}
-
 
 .logo-block{
     display: block;
@@ -29,8 +25,8 @@
 
 .contacts-item-box{
     display: block;
-
 }
+
 .location{
     font-weight: 400;
     font-size: 14px;
@@ -40,11 +36,13 @@
     font-style: normal;
     margin-bottom: 9px;
     transition: color var(--transition-dur-and-func);
-}
-.location:hover,
-.location:focus{
+
+    &:hover,
+    &:focus{
     color: var(--third-text-color);
 }
+}
+
 .mail-link-footer, .contact-phone-number-footer{
     font-weight: 400;
     font-size: 14px;
@@ -83,7 +81,6 @@ color: #FFFFFF;
 }
 .social-list-footer {
     display: flex;
-    /* justify-content: center; */
     gap: 10px;
 }
 .social-list-link-footer {
@@ -95,21 +92,19 @@ color: #FFFFFF;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     transition: background-color var(--transition-dur-and-func);
-}
 
-.social-list-link-footer:hover,
-.social-list-link-footer:focus {
+    &:hover,
+    &:focus {
     background-color: var(--third-text-color);
 }
+}
+
+
 
 .socail-list-icon-footer {
     fill: #ffffff;
 }
 
-.social-list-link-footer:hover .socail-list-icon,
-.social-list-link-footer:focus .socail-list-icon {
-    fill: #ffffff;
-}
 .social-contacts-footer{
     display: flex;
     gap:70px;
@@ -132,7 +127,6 @@ color: #FFFFFF;
     margin-bottom: 20px;
 }
 .subscribe-form-mail{
-    /* position: absolute; */
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -144,11 +138,12 @@ color: #FFFFFF;
     color:#ffffff ;
     transition: border-color var(--transition-dur-and-func);
     
-}
-.subscribe-form-mail:hover,
-.subscribe-form-mail:focus{
+    &:hover,
+    &:focus{
     border-color: var(--third-text-color);
+    }
 }
+
 .subscribe-items{
     display: flex;
     
@@ -178,21 +173,22 @@ color: #FFFFFF;
     transition: background var(--transition-dur-and-func), color var(--transition-dur-and-func);
     outline: none;
     border:none;
-}
-.subscribe-form-submit-btn:hover,
-.subscribe-form-submit-btn:focus{
+    
+    &:hover,
+    &:focus{
     background:#ffffff;
     color: #2196F3;
     outline: none;
-}
-.subscribe-form-submit-btn:hover .subscribe-form-input-icon,
-.subscribe-form-submit-btn:focus .subscribe-form-input-icon{
-    fill:#2196F3;
+    }
 }
 
 .subscribe-form-input-icon{
     margin-left: 10px;
-        fill: #FFFFFF;
-        transition: fill var(--transition-dur-and-func);
+    fill: #FFFFFF;
+    transition: fill var(--transition-dur-and-func);
 
+    .subscribe-form-submit-btn:hover &,
+    .subscribe-form-submit-btn:focus &{
+    fill: #2196F3;
+}
 }
