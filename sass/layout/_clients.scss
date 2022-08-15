@@ -1,13 +1,13 @@
-.client-list{
+.clients{
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.stable-clients{
+.clients__section{
     padding-bottom: 97px;
 }
 
-.client-link{
+.clients__link{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,20 +24,20 @@
     border-radius: 4px;
     }
 }
-.client-item{
+.clients__item{
     display: flex;
     align-items: center;
 }
-.client-logo{
+.clients__logo{
     fill:#AFB1B8;
     transition: fill var(--transition-dur-and-func);
     
-    .client-item:hover &,
-    .client-item:focus &{
+    .clients__item:hover &,
+    .clients__item:focus &{
     fill:#2196F3;
     }
-    .client-link:hover &,
-    .client-link:focus &{
+    .clients__link:hover &,
+    .clients__link:focus &{
     fill:#2196F3;
     }
 }

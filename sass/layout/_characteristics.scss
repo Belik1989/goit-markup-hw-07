@@ -1,14 +1,10 @@
 .characteristic{
-    /* width: 270px; */
     display: flex;
     align-items: center;
     gap: 30px;
-    
-    /* margin: auto; */
-    
 }
 
-.characteristic-item-icon-back{
+.characteristic__item__background{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +15,11 @@
     margin-bottom: 30px;
 }
 
-.characteristic-item{
+.characteristic__item{
     width: 270px;
 }
 
-.characteristic-title{
+.characteristic__item__title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -32,7 +28,7 @@
     color: var(--primary-text-color);
     margin-bottom: 10px;
 }
-.characteristic-subtitle{
+.characteristic__item__subtitle{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

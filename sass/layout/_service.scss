@@ -1,10 +1,10 @@
 .service{
     padding-bottom: 94px;
 }
-.service-link{
+.service__link{
     position:relative;
 }
-.service-type{
+.service__title{
     position: absolute;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@
     width: 100%;
     height: 70px;
 }
-.service-flex{
+.service__list{
     display: flex;
     flex-wrap: wrap;
     align-items: center;

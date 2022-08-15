@@ -3,7 +3,7 @@
     padding-bottom: 24px;
     border-bottom: 1px solid #ECECEC;
     }
-.page-header-container {
+.page-header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -15,18 +15,18 @@
     }
     
     
-.logo-head{
+.logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color:var(--third-text-color);
 }
-.logo-head-part2{
+.page-header__logo__part2{
     color: var(--primary-text-color);
 }
 
-.logo {
+.page-header__logo {
     margin-right: 93px;
     }
 
@@ -35,11 +35,11 @@
     display: flex;
     align-items: center;
 }
-.menu-item:not(:last-child){
+.menu__item:not(:last-child){
     margin-right: 50px;
 }
 
-.menu-link{
+.menu__link{
     position: relative;
     display: block;
     font-weight: 500;
@@ -49,9 +49,14 @@
     color:var(--primary-text-color);
     cursor: pointer;
     transition: color var(--transition-dur-and-func);
-    }
 
-.current::after{
+    &:hover,
+    &:focus {
+        color:var(--third-text-color);
+    }
+}
+
+.menu__link_current::after{
     position: absolute;
     content: '';
     left: 0;
@@ -64,10 +69,10 @@
     transition: background-color var(--transition-dur-and-func);
     bottom:-33px;
 }
-.current{
+.menu__link_current{
     color:var(--third-text-color);
 }
-.menu-link.current:hover:after{
+.menu__link.current:hover:after{
     background-color:var(--third-text-color);
 }
 
@@ -77,13 +82,7 @@
 
 }
 
-
-.menu-link:hover,
-.menu-link:focus {
-        color:var(--third-text-color);
-}
-
-.contact-phone-number,.mail-link{
+.contacts-head__phone,.contacts-head__mail{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -92,28 +91,28 @@
     transition: color var(--transition-dur-and-func);
 }
 
-.mail-link:hover,
-.mail-link:focus,
-.contact-phone-number:hover,
-.contact-phone-number:focus{
+.contacts-head__mail:hover,
+.contacts-head__mail:focus,
+.contacts-head__phone:hover,
+.contacts-head__phone:focus{
         color:var(--third-text-color);
     }
 
-    .mail-link{
+    .contacts-head__mail{
         display: flex;
         justify-content: center;
         margin-right: 50px;
     }
-    .mail-icon-head{
+    .contacts-head__mail__icon{
         margin-right: 10px;
         align-self: center;
         fill:currentColor;
     }
-.contact-phone-number{
+.contacts-head__phone{
     display: flex;
     justify-content: center;
 }
-.phone-icon-head{
+.contacts-head__phone__icon{
     margin-right: 10px;
     margin-bottom: 0px;
     align-self: center;
