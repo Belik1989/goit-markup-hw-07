@@ -197,7 +197,7 @@ body {
   fill: var(--third-text-color);
 }
 
-.modal-form-message {
+.modal-form__message {
   width: 100%;
   height: 120px;
   padding: 10px 16px;
@@ -207,7 +207,7 @@ body {
   border-radius: 4px;
   transition: border-color var(--transition-dur-and-func);
 }
-.modal-form-message::placeholder {
+.modal-form__message::placeholder {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -216,7 +216,7 @@ body {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal-form-message:focus {
+.modal-form__message:focus {
   outline: none;
   border-color: var(--third-text-color);
 }
