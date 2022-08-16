@@ -1,11 +1,11 @@
-.project-flex{
+.projects{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.project-card:hover,
-.project-card:focus{
+.projects__card:hover,
+.projects__card:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .projects-titles{
@@ -21,7 +21,7 @@
     letter-spacing: 0.03em;
     color: var(--secondary-tex-color);
 }
-.project-link{
+.projects__link{
     display: block;
     position: relative;
     border: 1px solid #EEEEEE;;
@@ -32,11 +32,11 @@
         border-top: none;
         padding: 20px 24px 20px 24px;
     }
-.project-link-img{
+.project__img{
     position: relative;
     overflow: hidden;
 }
-    .overlay{
+    .projects__overlay{
     position: absolute;
     font-family: 'Roboto';
     font-style: normal;
