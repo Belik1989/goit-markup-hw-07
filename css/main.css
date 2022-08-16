@@ -221,7 +221,7 @@ body {
   border-color: var(--third-text-color);
 }
 
-.modal-form-check-desc {
+.modal-form-check__desc {
   display: flex;
   align-items: center;
   text-align: center;
@@ -237,7 +237,7 @@ body {
   color: #757575;
   transition: border-color var(--transition-dur-and-func), outline var(--transition-dur-and-func);
 }
-.modal-form-check-desc::before {
+.modal-form-check__desc::before {
   display: block;
   width: 16px;
   height: 15px;
@@ -250,22 +250,22 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transition: background-color var(--transition-dur-and-func), background-position var(--transition-dur-and-func), background-color var(--transition-dur-and-func), outline var(--transition-dur-and-func);
 }
-.modal-form-check:focus + .modal-form-check-desc::before {
+.modal-form-check:focus + .modal-form-check__desc::before {
   border-color: var(--third-text-color);
   outline: none;
   outline: 1px solid var(--third-text-color);
 }
-.modal-form-check:checked + .modal-form-check-desc::before {
+.modal-form-check:checked + .modal-form-check__desc::before {
   background-image: url("../images/svg/check.svg");
   background-position: 50% 50%;
   background-color: #2196F3;
 }
 
-.modal-form-check-link {
+.modal-form-check__link {
   color: var(--third-text-color);
   transition: color var(--transition-dur-and-func);
 }
-.modal-form-check-link:hover, .modal-form-check-link:focus {
+.modal-form-check__link:hover, .modal-form-check__link:focus {
   color: #188CE8;
 }
 
@@ -405,7 +405,7 @@ body {
   margin-right: 50px;
 }
 
-.contacts-head__mail__icon {
+.contacts-head__icon1 {
   margin-right: 10px;
   align-self: center;
   fill: currentColor;
@@ -416,7 +416,7 @@ body {
   justify-content: center;
 }
 
-.contacts-head__phone__icon {
+.contacts-head__icon2 {
   margin-right: 10px;
   margin-bottom: 0px;
   align-self: center;
@@ -448,7 +448,7 @@ body {
   margin-bottom: 30px;
 }
 
-.hero__service__btn {
+.hero__btn {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -467,7 +467,7 @@ body {
   margin: auto;
   transition: color var(--transition-dur-and-func);
 }
-.hero__service__btn:hover, .hero__service__btn:focus {
+.hero__btn:hover, .hero__btn:focus {
   background-color: #188CE8;
 }
 
@@ -477,7 +477,7 @@ body {
   gap: 30px;
 }
 
-.characteristic__item__background {
+.characteristic__background {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -492,7 +492,7 @@ body {
   width: 270px;
 }
 
-.characteristic__item__title {
+.characteristic__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -502,7 +502,7 @@ body {
   margin-bottom: 10px;
 }
 
-.characteristic__item__subtitle {
+.characteristic__subtitle {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -573,7 +573,7 @@ body {
   fill: #ffffff;
 }
 
-.team__section {
+.team {
   background-color: #F5F4FA;
   margin-bottom: 94px;
 }
@@ -584,7 +584,7 @@ body {
   gap: 30px;
 }
 
-.team__list__card__subtitle {
+.team__subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -594,13 +594,13 @@ body {
   margin-bottom: 10px;
 }
 
-.team__list__card {
+.team__card {
   background-color: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team__list__card__text {
+.team__text {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -609,7 +609,7 @@ body {
   margin-bottom: 16px;
 }
 
-.team__list__card__title {
+.team__title {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -620,7 +620,7 @@ body {
   gap: 30px;
 }
 
-.clients__section {
+.clients-section {
   padding-bottom: 97px;
 }
 
@@ -924,11 +924,11 @@ body {
   outline: none;
 }
 
-.subscribe__btn__icon {
+.subscribe__icon {
   margin-left: 10px;
   fill: #FFFFFF;
   transition: fill var(--transition-dur-and-func);
 }
-.subscribe__btn:hover .subscribe__btn__icon, .subscribe__btn:focus .subscribe__btn__icon {
+.subscribe__btn:hover .subscribe__icon, .subscribe__btn:focus .subscribe__icon {
   fill: #2196F3;
 }/*# sourceMappingURL=main.css.map */

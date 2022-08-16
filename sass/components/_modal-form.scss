@@ -96,7 +96,7 @@
 }
 
 
-.modal-form-check-desc {
+.modal-form-check__desc {
     display: flex;
     align-items: center;
     text-align: center;
@@ -140,7 +140,7 @@
     }
 }
 
-.modal-form-check-link{
+.modal-form-check__link{
     color: var(--third-text-color);
     transition: color var(--transition-dur-and-func);
 
