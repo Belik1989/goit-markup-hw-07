@@ -662,7 +662,6 @@ body {
   gap: 8px;
   justify-content: center;
   margin-bottom: 50px;
-  transition: box-shadow var(--transition-dur-and-func);
 }
 
 .filter:hover,
@@ -690,14 +689,14 @@ body {
   color: #FFFFFF;
 }
 
-.projects {
+.project-flex {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.projects__card:hover,
-.projects__card:focus {
+.project-card:hover,
+.project-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -716,7 +715,7 @@ body {
   color: var(--secondary-tex-color);
 }
 
-.projects__link {
+.project-link {
   display: block;
   position: relative;
   border: 1px solid #EEEEEE;
@@ -728,12 +727,12 @@ body {
   padding: 20px 24px 20px 24px;
 }
 
-.project__img {
+.project-link-img {
   position: relative;
   overflow: hidden;
 }
 
-.projects__overlay {
+.overlay {
   position: absolute;
   font-family: "Roboto";
   font-style: normal;
@@ -752,7 +751,7 @@ body {
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px 63px 24px;
 }
-.poject-link:hover .projects__overlay, .poject-link:focus .projects__overlay {
+.poject-link:hover .overlay, .poject-link:focus .overlay {
   transform: translate(0, 0);
 }
 
