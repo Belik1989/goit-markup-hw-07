@@ -323,7 +323,7 @@ body {
   color: var(--third-text-color);
 }
 
-.page-header__logo__part2 {
+.page-header__logo2 {
   color: var(--primary-text-color);
 }
 
@@ -767,7 +767,7 @@ body {
   gap: 70px;
 }
 
-.page-footer__logo__part2 {
+.page-footer__logo2 {
   color: white;
 }
 
